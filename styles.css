@@ -132,8 +132,8 @@ img {
 }
 
 .btn-outline {
-    border: 2px solid var(--gold);
-    color: var(--gold)
+     background: linear-gradient(135deg, var(--gold2), var(--gold));
+    color: #220006
 }
 
 .btn-outline:hover {
@@ -348,7 +348,7 @@ footer {
 .advogada-card img{
 
     width:360px;
-    height:460px;
+    height:560px;
 
     object-fit:cover;
 
