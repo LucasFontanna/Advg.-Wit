@@ -5,7 +5,6 @@
     --gold2: #f7d977;
     --text: #f7f2e8;
     --muted: #d8c9a0;
-    --bg-site: #380E0F;
 }
 
 * {
@@ -20,7 +19,7 @@ html {
 
 body {
     font-family: Poppins, sans-serif;
-    background: var(--bg-site);
+    background: linear-gradient(180deg, var(--bg2), var(--bg));
     color: var(--text);
     line-height: 1.6;
 }
@@ -413,4 +412,50 @@ footer {
 
     }
 
+}
+
+/* ===========================
+        CONTATOS
+=========================== */
+
+.contato>h2 {
+    text-align: left;
+    color: var(--gold);
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.contato-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contato-lista li {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: var(--gold);
+    font-size: 1.15rem;
+}
+
+.contato-lista i {
+    width: 26px;
+    text-align: center;
+    font-size: 22px;
+    color: var(--gold);
+}
+
+.contato-lista a {
+    color: var(--gold);
+    transition: .3s;
+}
+
+.contato-lista a:hover {
+    text-decoration: underline;
+}
+
+.contato-lista span {
+    color: var(--gold);
 }
